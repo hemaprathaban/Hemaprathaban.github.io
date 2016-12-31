@@ -69,12 +69,6 @@
 
         <ul class="nav navbar-nav visible-md visible-lg visible-sm searchbox">
             <li>
-                <form method="get" role="search" id="searchform" action="/results" onsubmit="return checkfrm_search();">
-
-                    <div class="form-group">
-                        <input type="search" required id="q1" name="q" value="" class="form-control desktop" placeholder="Search" />
-                    </div>
-                </form>
             </li>
         </ul>
 
@@ -106,7 +100,7 @@
 
 
 	
-<div>
+
 </div>
 
 
