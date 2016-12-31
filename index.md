@@ -5,10 +5,10 @@
 <head>
     <meta charset="utf-8" />
     
-        <title>Home &#8211; Madhur Ahuja</title>
+        <title>Home</title>
     
 
-    <meta name="author" content="Madhur Ahuja" />
+    <meta name="author" content="Hema Prathaban" />
     <meta name="description" content=" Home" />
 
     <link rel="start" href="/" />
