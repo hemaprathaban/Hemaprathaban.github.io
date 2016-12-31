@@ -40,16 +40,6 @@
 
     <div class="navbar-header">
 
-     <div class="hidden-md hidden-sm hidden-lg searchli">
-
-                <form method="get" role="search" id="searchform" action="/results" onsubmit="return checkfrm_search();">
-
-                    <div class="form-group">
-                        <input type="search" required id="q2" name="q" value="" class="form-control mobile" placeholder="Search" />
-                    </div>
-                </form>
-        </div>
-
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -105,20 +95,8 @@
 	<h1>Intro</h1>
 
 <p>Hi there, I&#39;m Hema, a programmer, and FOSS enthusiast in general.  I&#39;d like to present you some information on several topics of my interest. .</p>
-
-
-<h2>Contact</h2>
-
-
-</ul>
-
 </section>
-
-
 </div>
-
-
-</aside>
 
 <div class="c"></div>
 	
@@ -128,11 +106,9 @@
 
 
 	
+<div>
+</div>
 
-
-        </div>
-
-    </div>
 
     <script data-main="/files/js/app" src="/files/js/require.js"></script>
 
