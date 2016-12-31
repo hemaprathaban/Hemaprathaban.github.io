@@ -11,22 +11,22 @@
    
    
 
-    <link rel="stylesheet" href="/files/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://github.com/madhur/madhur.github.com/blob/master/files/css/bootstrap.min.css" type="text/css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/files/font-awesome/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="/files/css/jquery.fancybox.css" type="text/css" />
+    <link rel="stylesheet" href="https://github.com/madhur/madhur.github.com/blob/master/files/font-awesome/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href=https://github.com/madhur/madhur.github.com/blob/master/files/css/jquery.fancybox.css" type="text/css" />
 
-    <link rel="stylesheet" type="text/css" href="/files/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="https://github.com/madhur/madhur.github.com/blob/master/files/css/styles.css" />
     
     
 
-    <link rel="stylesheet" type="text/css" media="print" href="/files/css/print.css">
+    <link rel="stylesheet" type="text/css" media="print" href="https://github.com/madhur/madhur.github.com/blob/master/files/css/print.css">
 
      
    
-    <script src="/files/js/vendor/pace.min.js" type="text/javascript"></script>
+    <script src="https://github.com/madhur/madhur.github.com/blob/master/files/js/vendor/pace.min.js" type="text/javascript"></script>
 </head>
 
 <body>
