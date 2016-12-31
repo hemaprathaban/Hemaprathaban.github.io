@@ -1,123 +1,229 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+<html lang="en">
 
-[Link to another page](another-page).
+<head>
+    <meta charset="utf-8" />
+    
+        <title>Home &#8211; Madhur Ahuja</title>
+    
 
-There should be whitespace between paragraphs.
+    <meta name="author" content="Madhur Ahuja" />
+    <meta name="description" content=" Home" />
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+    <link rel="start" href="/" />
 
-# [](#header-1)Header 1
+    <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/madhur" title="RSS feed" />
+    <link rel="shortcut icon" href="http://www.gravatar.com/avatar/5352cde0b084abcd6d4d783c08a51c76?s=16" />
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+    <link rel="stylesheet" href="/files/css/bootstrap.min.css" type="text/css" />
 
-## [](#header-2)Header 2
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+    <link rel="stylesheet" href="/files/font-awesome/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="/files/css/jquery.fancybox.css" type="text/css" />
 
-### [](#header-3)Header 3
+    <link rel="stylesheet" type="text/css" href="/files/css/styles.css" />
+    
+    
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+    <link rel="stylesheet" type="text/css" media="print" href="/files/css/print.css">
+
+     
+   
+    <script src="/files/js/vendor/pace.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div class="container">
+       
+            <header id="header" class="row">
+
+                <nav id="navigation" class="navbar navbar-inverse navbar-fixed-top " role="navigation">
+    <div class="container">
+
+    <div class="navbar-header">
+
+     <div class="hidden-md hidden-sm hidden-lg searchli">
+
+                <form method="get" role="search" id="searchform" action="/results" onsubmit="return checkfrm_search();">
+
+                    <div class="form-group">
+                        <input type="search" required id="q2" name="q" value="" class="form-control mobile" placeholder="Search" />
+                    </div>
+                </form>
+        </div>
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <!--  <a class="navbar-brand " href="/">Home</a> -->
+    </div>
+
+    <div class="collapse navbar-collapse" id="mainmenu">
+        <ul id="nav" class="nav navbar-nav">
+            
+            <li><a class="home" href="/">Home</a>
+            </li>
+            <li><a class="blog" href="/blog">Blog</a>
+            </li>
+            <!--<li><a class="work" href="/work">Resume</a></li>-->
+            <li><a class="code" href="/projects">Work</a>
+            </li>
+            <!--<li><a class="papers" href="/papers">Papers</a></li>-->
+            <li><a class="info" href="/info">About</a>
+            </li>
+            <li><a class="contact" href="/contact">Contact</a>
+            </li>
+
+        </ul>
+
+        <ul class="nav navbar-nav visible-md visible-lg visible-sm searchbox">
+            <li>
+                <form method="get" role="search" id="searchform" action="/results" onsubmit="return checkfrm_search();">
+
+                    <div class="form-group">
+                        <input type="search" required id="q1" name="q" value="" class="form-control desktop" placeholder="Search" />
+                    </div>
+                </form>
+            </li>
+        </ul>
+
+
+        <ul class="nav-icons navbar-right nav navbar-nav visible-md visible-lg">
+            <li><a href="http://www.linkedin.com/in/madhurahuja"><i class="fa fa-linkedin-square fa-3x"></i></a>
+            </li>
+            <li><a href="https://github.com/madhur"><i class="fa fa-github fa-3x"></i></a>
+            </li>
+            <li><a href="http://feeds.feedburner.com/madhur"><i class="fa fa-rss-square fa-3x"></i></a>
+            </li>
+        </ul>
+
+
+    </div>
+
+</div>
+</nav>
+
+
+            </header>
+       
+        <div id="content" class="row">
+
+            <section  class="col-md-9">
+	<h1>Intro</h1>
+
+<p>Hi there, I&#39;m Madhur, a web developer, programmer, and technology enthusiast in general. At this site I&#39;d like to present you some information on several topics of my interest. These are self written programs and self written texts.</p>
+
+<p>I also <a href="/projects">code</a> and continue to do so whenever I get time.</p>
+
+<h2>Work</h2>
+
+<p>I previously worked as Consultant at Microsoft. I previously worked a lot on Microsoft technologies and had a technical blog on them:</p>
+
+<ul>
+<li> <em><a href="http://blogs.msdn.com/mahuja">Code Articles Discussion on Microsoft Technologies</a></em></li>
+<li> <a href="http://madhurahuja.blogspot.in/">First blog</a></li>
+</ul>
+
+<h2>Contact</h2>
+
+<p>Feel free to contact me through any of the below channels or through this <a href="/contact">contact form</a></p>
+
+<ul class="contact-icons">
+<li><a href="http://www.linkedin.com/in/madhurahuja"><i class="fa fa-linkedin-square fa-3x"></i><a/></li>
+<li><a href="http://stackoverflow.com/users/507256/madhur-ahuja"><i class="fa fa-stack-overflow fa-3x"></i><a/></li>
+<li><a href="https://github.com/madhur"><i class="fa fa-github fa-3x"></i><a/></li>
+<li><a href="http://twitter.com/#!/madhur25"><i class="fa fa-twitter-square fa-3x"></i><a/></li>
+<li><a href="mailto:ahuja.madhur@gmail.com"><i class="fa fa-inbox fa-3x"></i><a/></li>
+</ul>
+
+</section>
+
+<aside id="secondary" class="col-md-3 visible-md visible-lg">
+	<div class="category">
+<h3>Latest Posts</h3>
+<h4><a href="/blog/2016/12/25/proxy-cache-lock-nginx.html">Close look at proxy_cache_lock and proxy_cache_use_stale in Nginx</a></h4><time datetime="2016-12-25 00:00:00 +0530" pubdate="pubdate" class="date">25 Dec 2016</time><h4><a href="/blog/2016/12/25/batch-api-framework-nodejs.html">Improving performance using Batch APIs</a></h4><time datetime="2016-12-25 00:00:00 +0530" pubdate="pubdate" class="date">25 Dec 2016</time><h4><a href="/blog/2016/12/04/integrating-sentry-node.html">Integrate node.js logging with Sentry</a></h4><time datetime="2016-12-04 00:00:00 +0530" pubdate="pubdate" class="date">04 Dec 2016</time><h4><a href="/blog/2016/12/04/handling-couchbase-node.html">Couchbase exception handling in Node.js</a></h4><time datetime="2016-12-04 00:00:00 +0530" pubdate="pubdate" class="date">04 Dec 2016</time><h4><a href="/blog/2016/10/30/debugging-ssl-issues-java.html">Debugging SSL Issues in Java</a></h4><time datetime="2016-10-30 00:00:00 +0530" pubdate="pubdate" class="date">30 Oct 2016</time>
+
+
+</div>
+
+
+</aside>
+
+<div class="c"></div>
+	
+
+	
+
+
+
+	
+
+
+        </div>
+
+
+        <footer id="footer" class="row">
+
+            <p id="copyright">
+                &copy; 2011-2016 Madhur Ahuja
+            </p>
+            <p id="poweredby" class="visible-lg visible-md">
+                Powered by
+                <a href="http://jekyllrb.com" title="A static, minimalist CMS">Jekyll</a>, <a href="http://github.com/">Github</a> and <a href="http://disqus.com">Disqus</a>.
+            </p>
+
+            <div class="c">&nbsp;</div>
+
+
+        </footer>
+
+
+    </div>
+
+    <script data-main="/files/js/app" src="/files/js/require.js"></script>
+
+    
+        <script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-23769089-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+    
+
+    <!-- serviceWorker.html -->
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/serviceWorker.js').then(function(reg) {
+        if (!reg.installing) return;
+        console.log("[*] ServiceWorker is installing...");
+
+        var worker = reg.installing;
+        worker.addEventListener('statechange', function() {
+            if (worker.state == 'redundant') {
+                console.log('[*] Install failed');
+            }
+            if (worker.state == 'installed') {
+                console.log('[*] Install successful!');
+            }
+        });
+    });
 }
-```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+</script>
 
-#### [](#header-4)Header 4
+</body>
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+</html>
