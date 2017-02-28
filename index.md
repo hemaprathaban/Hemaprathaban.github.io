@@ -41,13 +41,13 @@
     <div class="navbar-header">
 
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu">
-            <span class="sr-only">Toggle navigation</span>
+          <!--  <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>-->
         </button>
         <!--  <a class="navbar-brand " href="/">Home</a> -->
-    </div>
+    </div> 
 
     <div class="collapse navbar-collapse" id="mainmenu">
         <ul id="nav" class="nav navbar-nav">
@@ -88,7 +88,16 @@
             <section  class="col-md-9">
 	<h1>Intro</h1>
 
-<p>Hi there, I&#39;m Hema, a programmer, and FOSS enthusiast in general.  I&#39;d like to present you some information on several topics of my interest. .</p>
+<p>I am  HemaPrathaban. I am freelancer. I work as Kernel and Debian
+developer. I had opportunity  to be first women from India to be part
+of OPW. It is still the gateway for women for being part of
+opensource. I am one of the intern  of linux kernel 2013 batch
+I had made contributions in Linux thermal sensor and Linux kernel staging tree.
+
+I work as Debian developer and involved in packaging and maintaining
+Linux kernel, touch driver, custom Firefox based browser, Debian and
+calarames installer, and meta packages for the Debain derived
+operating system.</p>
 </section>
 </div>
 
