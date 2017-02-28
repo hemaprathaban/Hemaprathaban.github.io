@@ -33,7 +33,7 @@
 
     <div class="container">
        
-            <header id="header" class="row">
+            <!--<header id="header" class="row">
 
            <!--     <nav id="navigation" class="navbar navbar-inverse navbar-fixed-top " role="navigation">
     <div class="container">
@@ -78,10 +78,10 @@
     </div> 
 
 </div> 
-</nav> -->
+</nav> 
 
 
-            </header>
+            </header> -->
        
         <div id="content" class="row">
 
