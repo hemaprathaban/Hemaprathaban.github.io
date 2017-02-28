@@ -52,7 +52,7 @@
     <div class="collapse navbar-collapse" id="mainmenu">
         <ul id="nav" class="nav navbar-nav">
             
-            <li><a class="home" href="/">Home</a>
+         <!--   <li><a class="home" href="/">Home</a>
             </li>
             <li><a class="blog" href="/blog">Blog</a>
             </li>
@@ -60,10 +60,10 @@
             <li><a class="code" href="/projects">Work</a>
             </li>
             <!--<li><a class="papers" href="/papers">Papers</a></li>-->
-            <li><a class="info" href="/info">About</a>
+           <!-- <li><a class="info" href="/info">About</a>
             </li>
             <li><a class="contact" href="/contact">Contact</a>
-            </li>
+            </li> -->
 
         </ul>
 
