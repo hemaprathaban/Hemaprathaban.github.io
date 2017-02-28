@@ -38,7 +38,7 @@
                 <nav id="navigation" class="navbar navbar-inverse navbar-fixed-top " role="navigation">
     <div class="container">
 
-    <div class="navbar-header">
+  <!--  <div class="navbar-header">
 
       <!--  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu"> -->
           <!--  <span class="sr-only">Toggle navigation</span>
@@ -75,9 +75,9 @@
 
 
 
-    </div> -->
+    </div> 
 
-</div>
+</div> -->
 </nav>
 
 
