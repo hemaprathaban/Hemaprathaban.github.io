@@ -40,32 +40,32 @@
 
     <div class="navbar-header">
 
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu">
+      <!--  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu"> -->
           <!--  <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>-->
-        </button>
+            <span class="icon-bar"></span>
+        </button> -->
         <!--  <a class="navbar-brand " href="/">Home</a> -->
     </div> 
 
     <div class="collapse navbar-collapse" id="mainmenu">
-        <ul id="nav" class="nav navbar-nav">
+    <!--    <ul id="nav" class="nav navbar-nav">
             
          <!--   <li><a class="home" href="/">Home</a>
             </li>
             <li><a class="blog" href="/blog">Blog</a>
             </li>
             <!--<li><a class="work" href="/work">Resume</a></li>-->
-            <li><a class="code" href="/projects">Work</a>
+          ,<!--  <li><a class="code" href="/projects">Work</a>
             </li>
             <!--<li><a class="papers" href="/papers">Papers</a></li>-->
            <!-- <li><a class="info" href="/info">About</a>
             </li>
             <li><a class="contact" href="/contact">Contact</a>
-            </li> -->
+            </li>
 
-        </ul>
+        </ul> -->
 
         <ul class="nav navbar-nav visible-md visible-lg visible-sm searchbox">
             <li>
