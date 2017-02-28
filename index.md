@@ -49,7 +49,7 @@
         <!--  <a class="navbar-brand " href="/">Home</a> -->
     </div> 
 
-    <div class="collapse navbar-collapse" id="mainmenu">
+ <!--   <div class="collapse navbar-collapse" id="mainmenu">
     <!--    <ul id="nav" class="nav navbar-nav">
             
          <!--   <li><a class="home" href="/">Home</a>
@@ -70,12 +70,12 @@
      <!--   <ul class="nav navbar-nav visible-md visible-lg visible-sm searchbox">
             <li>
             </li>
-        </ul> -->
+        </ul> 
 
 
 
 
-    </div>
+    </div> -->
 
 </div>
 </nav>
